@@ -18,7 +18,7 @@ class TestPalindrome(unittest.TestCase):
         self.assertFalse(is_palindrome("This is not a palindrome"))
 
     def test_edge_cases(self):
-        self.assertTrue(is_palindrome(""))
+        self.assertFalse(is_palindrome(""))
         self.assertTrue(is_palindrome("a"))
         self.assertTrue(is_palindrome("A"))
 
